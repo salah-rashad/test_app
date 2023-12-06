@@ -8,7 +8,7 @@ void main() {
   runApp(
     EasyLocalization(
       supportedLocales: const [Locale('en', 'US'), Locale('ar', 'EG')],
-      path: 'translations',
+      path: 'assets/translations',
       fallbackLocale: const Locale('en', 'US'),
       startLocale: const Locale('en', 'US'),
       saveLocale: true,
